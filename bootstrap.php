@@ -15,17 +15,17 @@ return function (Dispatcher $events) {
         }
 
         if ($name === null) {
-            throw new RuntimeException("Language pack ".__DIR__." needs a \"name\" in flarum.json.");
+            throw new RuntimeException("Language extension ".__DIR__." needs a \"name\" in flarum.json.");
         }
 
         if ($locale === null) {
-            throw new RuntimeException("Language pack {$name} needs a \"locale\" in flarum.json.");
+            throw new RuntimeException("Language extension {$name} needs a \"locale\" in flarum.json.");
         }
 
         $event->addLocale($locale, $name);
 
         if (! is_dir($localeDir = __DIR__.'/locale')) {
-            throw new RuntimeException("Language pack {$name} needs a \"locale\" subdirectory.");
+            throw new RuntimeException("Language extension {$name} needs a \"locale\" subdirectory.");
         }
 
         if (file_exists($file = $localeDir.'/config.js')) {

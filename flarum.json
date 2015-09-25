@@ -2,7 +2,7 @@
     "name": "english",
     "title": "English",
     "locale": "en",
-    "description": "English language pack.",
+    "description": "English language extension.",
     "keywords": ["language"],
     "version": "0.1.0-beta.3",
     "author": {

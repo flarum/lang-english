@@ -1,8 +1,8 @@
-# English Language Pack for Flarum
+# English Language Extension for Flarum
 
 ## Installation
 
-This language pack is bundled with [Flarum](http://flarum.org/download/).
+This language extension is bundled with [Flarum](http://flarum.org/download/).
 
 ## Translating Flarum
 

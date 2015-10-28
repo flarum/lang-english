@@ -19,7 +19,7 @@ flarum-flags:
     flag_post:
       reason_heading: Choose a Reason
       reason_inappropriate_label: Inappropriate
-      reason_off_topic_label: Off-topic
+      reason_off_topic_label: 'Off-topic'
       reason_other_label: Other
       reason_spam_label: Spam
       submit_button: => flarum-flags.ref.flag_post
@@ -34,8 +34,8 @@ flarum-flags:
     # These strings are used by the frame displayed around flagged posts.
     post:
       dismiss_flag_tooltip: Dismiss Flag
-      flagged_by_text: "{username} flagged"
-      flagged_by_with_reason_text: "{username} flagged as {reason}"
+      flagged_by_text: '{username} flagged'
+      flagged_by_with_reason_text: '{username} flagged as {reason}'
 
     # These strings are used by the post control buttons.
     post_controls:

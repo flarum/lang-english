@@ -8,10 +8,9 @@
         "flarum-extension": {
             "title": "English",
             "icon": {
-                "image": "icon.svg",
-                "backgroundColor": "#00247d",
-                "backgroundSize": "cover",
-                "backgroundPosition": "center"
+                "name": "language",
+                "backgroundColor": "#4d698e",
+                "color": "#fff"
             }
         },
         "flarum-locale": {

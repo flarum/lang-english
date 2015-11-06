@@ -353,42 +353,6 @@ core:
     next_page_button: Next Page
     previous_page_button: Previous Page
 
-  ##
-  # REUSED STRINGS - These keys should not be used directly in code!
-  ##
-
-  # Strings in this namespace are referenced by two or more unique keys.
-  ref:
-    all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions
-    edit: Edit
-    email: Email
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    notifications: Notifications
-    okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    username: Username
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
-
-  ##
-  # EMAIL CONTENT
-  ##
-
   # Strings in this namespace are used in emails sent by the forum.
   email:
 
@@ -432,7 +396,39 @@ core:
         If you do not wish to change your password, just ignore this email and nothing will happen.
 
   ##
-  # GROUP NAMES
+  # REUSED STRINGS - These keys should not be used directly in code!
+  ##
+
+  # Strings in this namespace are referenced by two or more unique keys.
+  ref:
+    all_discussions: All Discussions
+    change_email: Change Email
+    change_password: Change Password
+    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+    delete: Delete
+    delete_forever: Delete Forever
+    discussions: Discussions
+    edit: Edit
+    email: Email
+    load_more: Load More
+    log_in: Log In
+    log_out: Log Out
+    mark_all_as_read: Mark All as Read
+    notifications: Notifications
+    okay: OK                                     # Referenced by flarum-tags.yml
+    password: Password
+    reply: Reply                                 # Referenced by flarum-mentions.yml
+    restore: Restore
+    save_changes: Save Changes                   # Referenced by flarum-tags.yml
+    settings: Settings
+    sign_up: Sign Up
+    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    username: Username
+    write_a_reply: Write a Reply...
+    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+
+  ##
+  # GROUP NAMES - These keys are translated at the back end.
   ##
 
   # Strings in this namespace are used to translate default group names.

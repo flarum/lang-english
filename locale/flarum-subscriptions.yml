@@ -18,15 +18,15 @@ flarum-subscriptions:
       unfollow_button: Unfollow
       unignore_button: Unignore
 
-    # These translations are used on the index page, peripheral to the discussion list.
+    # This translation is used on the index page, peripheral to the discussion list.
     index:
       following_link: => flarum-subscriptions.ref.following
 
-    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
+    # This translation is used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       new_post_text: "{username} posted"
 
-    # These translations are used in the Settings page.
+    # This translation is used in the Settings page.
     settings:
       notify_new_post_label: Someone posts in a discussion I'm following
 
@@ -43,7 +43,7 @@ flarum-subscriptions:
       notify_alert_tooltip: Get a forum notification when there are new posts
 
   ##
-  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  # REUSED KEYS - The following keys are used in several locations and should not be used directly in code.
   ##
 
   # Translations in this namespace are referenced by two or more unique keys.

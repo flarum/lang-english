@@ -17,6 +17,6 @@ flarum-pusher:
   # Translations in this namespace are used by the admin interface.
   forum:
 
-    # These translations are used in the discussion list.
+    # This translation is used in the discussion list.
     discussion_list:
       show_updates_text: "Show {count} updated discussion|Show {count} updated discussions"

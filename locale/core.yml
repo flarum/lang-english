@@ -64,11 +64,11 @@ core:
       settings_button: => core.ref.settings
       uninstall_button: Uninstall
 
-    # This string is used in the session dropdown menu.
+    # This translation is used in the session dropdown menu.
     header:
       log_out_button: => core.ref.log_out
 
-    # This string is used in the modal dialog displayed when loading extensions.
+    # This translation is used in the modal dialog displayed when loading extensions.
     loading:
       title: Please Wait...
 
@@ -322,11 +322,11 @@ core:
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
-    # These translations are displayed as tooltips for discussion badges.
+    # This translation is displayed as tooltip for discussion badges.
     badge:
       hidden_tooltip: Hidden
 
-    # This string is displayed in place of the username of deleted user account.
+    # This translation is displayed in place of the username of deleted user account.
     deleted_user_text: "[deleted]"
 
     # These translations are displayed as error messages.
@@ -398,7 +398,7 @@ core:
         If you do not wish to change your password, just ignore this email and nothing will happen.
 
   ##
-  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  # REUSED KEYS - The following keys are used in several locations and should not be used directly in code.
   ##
 
   # Translations in this namespace are referenced by two or more unique keys.
@@ -431,7 +431,7 @@ core:
     you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
-  # GROUP NAMES - These keys are translated at the back end.
+  # GROUP NAMES - The following keys are translated at the back end.
   ##
 
   # Translations in this namespace are used to translate default group names.

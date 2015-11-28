@@ -51,7 +51,7 @@ flarum-flags:
       flag_button: Flag
 
   ##
-  # REUSED TRANSLATIONS - These keys should not be used directly in code!
+  # REUSED KEYS - The following keys are used in several locations and should not be used directly in code.
   ##
 
   # Translations in this namespace are referenced by two or more unique keys.

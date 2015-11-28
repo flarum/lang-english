@@ -64,11 +64,11 @@ core:
       settings_button: => core.ref.settings
       uninstall_button: Uninstall
 
-    # This translation is used in the session dropdown menu.
+    # These translations are used in the session dropdown menu.
     header:
       log_out_button: => core.ref.log_out
 
-    # This translation is used in the modal dialog displayed when loading extensions.
+    # These translations are used in the modal dialog displayed when loading extensions.
     loading:
       title: Please Wait...
 
@@ -322,11 +322,11 @@ core:
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
-    # This translation is displayed as tooltip for discussion badges.
+    # These translations are displayed as tooltips for discussion badges.
     badge:
       hidden_tooltip: Hidden
 
-    # This translation is displayed in place of the username of deleted user account.
+    # These translations are displayed in place of the username of deleted user account.
     deleted_user_text: "[deleted]"
 
     # These translations are displayed as error messages.

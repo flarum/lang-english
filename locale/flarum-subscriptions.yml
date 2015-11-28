@@ -18,15 +18,15 @@ flarum-subscriptions:
       unfollow_button: Unfollow
       unignore_button: Unignore
 
-    # This translation is used on the index page, peripheral to the discussion list.
+    # These translations are used on the index page, peripheral to the discussion list.
     index:
       following_link: => flarum-subscriptions.ref.following
 
-    # This translation is used by the Notifications dropdown, a.k.a. "the bell".
+    # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       new_post_text: "{username} posted"
 
-    # This translation is used in the Settings page.
+    # These translations are used in the Settings page.
     settings:
       notify_new_post_label: Someone posts in a discussion I'm following
 

@@ -7,7 +7,7 @@ flarum-mentions:
   # Translations in this namespace are used by the forum user interface.
   forum:
 
-    # This translation is used by the composer (reply autocompletion function).
+    # These translations are used by the composer (reply autocompletion function).
     composer:
       reply_to_post_text: "Reply to #{number}"
 

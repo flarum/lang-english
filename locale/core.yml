@@ -253,6 +253,12 @@ core:
       title: => core.ref.log_in
       username_or_email_placeholder: Username or Email
 
+    # These translations are used in the mark all as read modal dialog.
+    mark_all_as_read:
+      send_button: => core.ref.mark_all_as_read
+      text: Click the button below to mark all discussions as read.
+      title: => core.ref.mark_all_as_read
+
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       discussion_renamed_text: "{username} changed the title"

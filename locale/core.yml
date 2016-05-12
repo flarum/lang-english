@@ -69,6 +69,19 @@ core:
       submit_button: => core.ref.save_changes
       title: Create Group
 
+    # These translations are used in the SMTP page.
+    smtp:
+      heading: SMTP
+      text: Configure your SMTP settings
+      driver_label: SMTP Driver
+      host_label: "SMTP Host (Url)"
+      from_label: "SMTP From (Email)"
+      port_label: SMTP Port
+      username_label: SMTP Email Username
+      password_label: SMTP Email Password
+      encryption_label: SMTP Encryption
+      submit_button: => core.ref.save_changes
+
     # These translations are used in the Extensions page.
     extensions:
       add_button: Add Extension
@@ -97,6 +110,8 @@ core:
       extensions_text: Add extra functionality to your forum and make it your own.
       permissions_button: Permissions
       permissions_text: Configure who can see and do what.
+      smtp_button: SMTP
+      smtp_text: Configure your SMTP settings
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:

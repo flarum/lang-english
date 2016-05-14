@@ -85,7 +85,6 @@ core:
       text: Configure the SMTP settings and addresses your forum will use to send email.
       username_label: Username
 
-
     # These translations are used in the Extensions page.
     extensions:
       add_button: Add Extension
@@ -116,7 +115,6 @@ core:
       extensions_text: Add extra functionality to your forum and make it your own.
       permissions_button: Permissions
       permissions_text: Configure who can see and do what.
-
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:

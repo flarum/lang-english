@@ -69,6 +69,22 @@ core:
       submit_button: => core.ref.save_changes
       title: Create Group
 
+    # These translations are used in the SMTP page of the admin interface.
+    email:
+      heading: => core.ref.email
+      text: Configure the SMTP settings and addresses your forum will use to send email.
+      server_heading: SMTP Server
+      driver_label: Driver
+      host_label: Host
+      port_label: Port
+      encryption_label: Encryption
+      account_heading: SMTP Account
+      username_label: Username
+      password_label: Password
+      adresses_heading: Adresses
+      from_label: Sender
+      submit_button: => core.ref.save_changes
+
     # These translations are used in the Extensions page.
     extensions:
       add_button: Add Extension
@@ -97,8 +113,8 @@ core:
       extensions_text: Add extra functionality to your forum and make it your own.
       permissions_button: Permissions
       permissions_text: Configure who can see and do what.
-      smtp_button: SMTP
-      smtp_text: Configure your SMTP settings.
+      email_button: => core.ref.email
+      email_text: Configure your forum's email settings.
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
@@ -134,20 +150,6 @@ core:
     # These translations are used in the Settings modal dialog.
     settings:
       submit_button: => core.ref.save_changes
-
-    # These translations are used in the SMTP page.
-    smtp:
-      heading: SMTP
-      text: Configure the SMTP settings your server will use when sending notifications by email
-      driver_label: SMTP Driver
-      host_label: "SMTP Host (URL)"
-      from_label: "SMTP From (Email)"
-      port_label: SMTP Port
-      username_label: SMTP Username
-      password_label: SMTP Password
-      encryption_label: SMTP Encryption
-      submit_button: => core.ref.save_changes
-
 
   # Translations in this namespace are used by the forum user interface.
   forum:

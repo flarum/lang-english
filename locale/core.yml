@@ -72,7 +72,7 @@ core:
     # These translations are used in the email page of the admin interface.
     email:
       account_heading: SMTP Account
-      adresses_heading: Adresses
+      addresses_heading: Addresses
       driver_label: Driver
       encryption_label: Encryption
       from_label: Sender

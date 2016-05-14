@@ -71,19 +71,20 @@ core:
 
     # These translations are used in the email page of the admin interface.
     email:
-      heading: => core.ref.email
-      text: Configure the SMTP settings and addresses your forum will use to send email.
-      server_heading: SMTP Server
-      driver_label: Driver
-      host_label: Host
-      port_label: Port
-      encryption_label: Encryption
       account_heading: SMTP Account
-      username_label: Username
-      password_label: Password
       adresses_heading: Adresses
+      driver_label: Driver
+      encryption_label: Encryption
       from_label: Sender
+      heading: => core.ref.email
+      host_label: Host
+      password_label: Password
+      port_label: Port
+      server_heading: SMTP Server
       submit_button: => core.ref.save_changes
+      text: Configure the SMTP settings and addresses your forum will use to send email.
+      username_label: Username
+
 
     # These translations are used in the Extensions page.
     extensions:
@@ -109,12 +110,13 @@ core:
       basics_text: "Set your forum title, language, and other basic settings."
       dashboard_button: Dashboard
       dashboard_text: Your forum at a glance.
+      email_button: => core.ref.email
+      email_text: "Configure your forum's email settings."
       extensions_button: Extensions
       extensions_text: Add extra functionality to your forum and make it your own.
       permissions_button: Permissions
       permissions_text: Configure who can see and do what.
-      email_button: => core.ref.email
-      email_text: Configure your forum's email settings.
+
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:

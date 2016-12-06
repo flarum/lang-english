@@ -9,28 +9,28 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
-      reply_to_post_text: "Reply to #{number}"
+      reply_to_post_text: "#{number} に返信"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "{username} replied to your post"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} mentioned you"
+      post_mentioned_text: "{username} が投稿へ返信しました"  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "{username} があなたへ言及しています"
 
     # These translations are displayed beneath individual posts.
     post:
-      mentioned_by_self_text: "{users} replied to this."  # Can be pluralized to agree with the number of users!
-      mentioned_by_text: "{users} replied to this."       # Can be pluralized to agree with the number of users!
+      mentioned_by_self_text: "{users} が返信しています."  # Can be pluralized to agree with the number of users!
+      mentioned_by_text: "{users} が返信しています."       # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
-      quote_button: Quote
+      quote_button: 引用
       reply_link: => core.ref.reply
       you_text: => core.ref.you
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: Someone replies to one of my posts
-      notify_user_mentioned_label: Someone mentions me in a post
+      notify_post_mentioned_label: あなたの投稿に返信があります
+      notify_user_mentioned_label: 投稿内で言及があります
 
     # These translations are used in the user profile page and profile popup.
     user:
-      mentions_link: Mentions
+      mentions_link: Mention

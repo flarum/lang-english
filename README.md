@@ -2,7 +2,7 @@
 
 Japanese Language pack extension for Flarum.
 
-12/6 *** Not work *** now,checking
+12/6 ***Not work*** now,checking
 
 
 > this repo is forked from [Yossi1114](https://github.com/yossi1114net/flarum-ext-japanese.git)

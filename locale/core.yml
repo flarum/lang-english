@@ -289,14 +289,14 @@ core:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      forgot_password_link: "Forgot password?"
-      invalid_login_message: Your login details were incorrect.
+      forgot_password_link: "Zapomenuté heslo?"
+      invalid_login_message: Tvé přihlašovací údaje nejsou správné.
       password_placeholder: => core.ref.password
-      remember_me_label: Remember me for two weeks
-      sign_up_text: "Don't have an account? <a>Sign Up</a>"
+      remember_me_label: Zapamatuj si mě na dva týdny
+      sign_up_text: "Nemáš účet? <a>Zaregistruj se</a>"
       submit_button: => core.ref.log_in
       title: => core.ref.log_in
-      username_or_email_placeholder: Username or Email
+      username_or_email_placeholder: Přezdívka nebo e-mail
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
@@ -503,36 +503,36 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
-    confirm_password: Confirm Password
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions
-    edit: Edit
-    email: Email
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    next_page: Next Page
-    notifications: Notifications
+    all_discussions: Všechny diskuse
+    change_email: Změnit e-mail
+    change_password: Změnit heslo
+    confirm_password: Potvrdit heslo
+    confirmation_email_sent: "Poslali jsme potvrzovací zprávu na adresu {email}. Pokud brzy nedorazí, zkus se kouknout do složky s nevyžádanou poštou."
+    delete: Smazat
+    delete_forever: Smazat navždy
+    discussions: Diskuse
+    edit: Upravit
+    email: E-Mail
+    load_more: Načíst další
+    log_in: Přihlásit se
+    log_out: Odhlásit se
+    mark_all_as_read: Označit vše jako přečtené
+    next_page: Další stránka
+    notifications: Oznámení
     okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
-    rename: Rename
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
-    username: Username
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    password: Heslo
+    rename: Přejmenovat
+    reply: Odpovědět                             # Referenced by flarum-mentions.yml
+    reset_your_password: Obnovit heslo
+    restore: Obnovit
+    save_changes: Uložit změny                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: Nastavení
+    sign_up: Registrovat se
+    some_others: "{count} další|{count} další"   # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: Začít diskutovat
+    username: Přezdívka
+    write_a_reply: Odpovědět…
+    you: Ty                                      # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -540,11 +540,11 @@ core:
 
   # Translations in this namespace are used to translate default group names.
   group:
-    admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
-    mod: Mod
-    mods: Mods
+    admin: Správce
+    admins: Správci
+    guest: Host
+    guests: Hosté
+    member: Člen
+    members: Členové
+    mod: Moderátor
+    mods: Moderátoři

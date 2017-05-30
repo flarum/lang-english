@@ -382,6 +382,10 @@ core:
       online_text: Online
       posts_load_more_button: => core.ref.load_more
       posts_link: Posts
+      posts_empty_text: It looks like there are no posts here.
+      posts_missing_head: "1 Post is Unaccounted for|{count} Posts are Unaccounted for"
+      discussions_missing_head: "1 Discussion is Unaccounted for|{count} Discussions are Unaccounted for"
+      content_missing_text: "You either lack sufficient permission to view them or they have been deleted."
       settings_link: => core.ref.settings
 
     # These translations are found on the user profile page (admin function).

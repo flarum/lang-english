@@ -282,11 +282,11 @@ core:
 
     # These translations are used by the sorting control above the discussion list.
     index_sort:
-      latest_button: Latest
-      newest_button: Newest
-      oldest_button: Oldest
+      latest_button: Recent replies
+      newest_button: New discussions
+      oldest_button: Old discussions
       relevance_button: Relevance
-      top_button: Top
+      top_button: Top discussions
 
     # These translations are used in the Log In modal dialog.
     log_in:

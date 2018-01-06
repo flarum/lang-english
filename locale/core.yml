@@ -61,6 +61,12 @@ core:
       submit_button: => core.ref.save_changes
       title: Edit Custom CSS
 
+    # These translations are used in the Edit Custom Footer modal dialog.
+    edit_footer:
+      customize_text: "Add HTML to be displayed at the very bottom of the page."
+      submit_button: => core.ref.save_changes
+      title: Edit Custom Footer
+
     # These translations are used in the Edit Group modal dialog.
     edit_group:
       color_label: Color
@@ -73,12 +79,6 @@ core:
       singular_placeholder: Singular (e.g. Mod)
       submit_button: => core.ref.save_changes
       title: Create Group
-
-    # These translations are used in the Edit Custom Footer modal dialog.
-    edit_footer:
-      customize_text: "Add HTML to be displayed at the very bottom of the page."
-      submit_button: => core.ref.save_changes
-      title: Edit Custom Footer
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:

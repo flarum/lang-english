@@ -69,7 +69,7 @@ core:
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
-      color_label: Color
+      color_label: => core.ref.color
       delete_button: Delete Group
       delete_confirmation: "Are you sure you want to delete this group? The group members will NOT be deleted."
       icon_label: Icon
@@ -170,7 +170,7 @@ core:
 
     # These translations are used in image upload buttons.
     upload_image:
-      remove_button: Remove
+      remove_button: => core.ref.remove
       upload_button: Choose an Image...
 
   # Translations in this namespace are used by the forum user interface.
@@ -349,7 +349,7 @@ core:
     search:
       all_discussions_button: 'Search all discussions for "{query}"'
       discussions_heading: => core.ref.discussions
-      users_heading: Users
+      users_heading: => core.ref.users
 
     # These translations are used in the Settings page.
     settings:
@@ -377,7 +377,7 @@ core:
 
     # These translations are used in the user profile page and profile popup.
     user:
-      avatar_remove_button: Remove
+      avatar_remove_button: => core.ref.remove
       avatar_upload_button: Upload
       avatar_upload_tooltip: Upload a new avatar
       discussions_link: => core.ref.discussions
@@ -525,6 +525,7 @@ core:
     all_discussions: All Discussions
     change_email: Change Email
     change_password: Change Password
+    color: Color                                 # Referenced by flarum-tags.yml
     confirm_password: Confirm Password
     confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
     custom_footer_text: Add HTML to be displayed at the very bottom of the page.
@@ -545,6 +546,7 @@ core:
     okay: OK                                     # Referenced by flarum-tags.yml
     password: Password
     posts: Posts                                 # Referenced by flarum-statistics.yml
+    remove: Remove
     rename: Rename
     reply: Reply                                 # Referenced by flarum-mentions.yml
     reset_your_password: Reset Your Password
@@ -555,6 +557,7 @@ core:
     some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
     start_a_discussion: Start a Discussion
     username: Username
+    users: Users                                 # Referenced by flarum-statistics.yml
     write_a_reply: Write a Reply...
     you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 

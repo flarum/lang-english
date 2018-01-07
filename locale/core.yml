@@ -20,15 +20,15 @@ core:
       colors_heading: Colors
       colors_text: "Choose two colors to theme your forum with. The first will be used as a highlight color, while the second will be used to style background elements."
       custom_footer_heading: Custom Footer
-      custom_footer_text: "Add HTML to be displayed at the very bottom of the page."
+      custom_footer_text: => core.ref.custom_footer_text
       custom_header_heading: Custom Header
-      custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+      custom_header_text: => core.ref.custom_header_text
       custom_styles_heading: Custom Styles
       custom_styles_text: Customize your forum's appearance by adding your own LESS/CSS code to be applied on top of Flarum's default styles.
       dark_mode_label: Dark Mode
       edit_css_button: Edit Custom CSS
-      edit_footer_button: Edit Custom Footer
-      edit_header_button: Edit Custom Header
+      edit_footer_button: => core.ref.custom_footer_title
+      edit_header_button: => core.ref.custom_header_title
       enter_hex_message: Please enter a hexadecimal color code.
       favicon_heading: Favicon
       favicon_text: Upload an image to be displayed as the forum's shortcut icon.
@@ -63,9 +63,9 @@ core:
 
     # These translations are used in the Edit Custom Footer modal dialog.
     edit_footer:
-      customize_text: "Add HTML to be displayed at the very bottom of the page."
+      customize_text: => core.ref.custom_footer_text
       submit_button: => core.ref.save_changes
-      title: Edit Custom Footer
+      title: => core.ref.custom_footer_title
 
     # These translations are used in the Edit Group modal dialog.
     edit_group:
@@ -82,9 +82,9 @@ core:
 
     # These translations are used in the Edit Custom Header modal dialog.
     edit_header:
-      customize_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+      customize_text: => core.ref.custom_header_text
       submit_button: => core.ref.save_changes
-      title: Edit Custom Header
+      title: => core.ref.custom_header_title
 
     # These translations are used in the email page of the admin interface.
     email:
@@ -527,6 +527,10 @@ core:
     change_password: Change Password
     confirm_password: Confirm Password
     confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
+    custom_footer_text: Add HTML to be displayed at the very bottom of the page.
+    custom_footer_title: Edit Custom Footer
+    custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
+    custom_header_title: Edit Custom Header
     delete: Delete
     delete_forever: Delete Forever
     discussions: Discussions                     # Referenced by flarum-statistics.yml

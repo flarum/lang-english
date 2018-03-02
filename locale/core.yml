@@ -48,8 +48,6 @@ core:
       saved_message: Your changes were saved.
       show_language_selector_label: Show language selector
       submit_button: => core.ref.save_changes
-      welcome_banner_heading: Welcome Banner
-      welcome_banner_text: Configure the text that displays in the banner on the All Discussions page. Use this to welcome guests to your forum.
 
     # These translations are used in the Dashboard page.
     dashboard:

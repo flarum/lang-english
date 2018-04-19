@@ -1,5 +1,5 @@
 {
-    "name": "flarum/flarum-ext-albania",
+    "name": "nit/flarum-ext-albania",
     "type": "flarum-extension",
     "description": "Albanian language pack.",
     "keywords": ["locale"],

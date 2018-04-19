@@ -9,47 +9,47 @@ flarum-flags:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      flag_posts_label: Flag posts
-      view_flags_label: View flagged posts
+      flag_posts_label: Shënjo postimet
+      view_flags_label: Shiko postimet e shënjuara
 
     # These translations are used in the Flags Settings modal dialog.
     settings:
-      guidelines_url_label: Community Guidelines URL
-      title: Flags Settings
+      guidelines_url_label: URL e udhëzimeve të komunitetit
+      title: Cilësimet e Shënjimeve
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the Flag Post modal dialog.
     flag_post:
-      confirmation_message: Thank you for flagging this post. Our moderators will look into it.
+      confirmation_message: Falemenderit që shënjuat këtë postim. Moderatort tanë do të shikojnë këtë postim.
       dismiss_button: => core.ref.okay
-      reason_inappropriate_label: Inappropriate
-      reason_inappropriate_text: "This post is offensive, abusive, or violates our <a>community guidelines</a>."
-      reason_off_topic_label: "Off-topic"
-      reason_off_topic_text: This post is not relevant to the current discussion and should be moved elsewhere.
-      reason_other_label: Other
+      reason_inappropriate_label: I papërshtatshëm
+      reason_inappropriate_text: "Ky post është ofendues, abuziv, ose shkel udhëzimet <a>e komunitetit</a>."
+      reason_off_topic_label: "Jashtë-Teme"
+      reason_off_topic_text: Ky post nuk është i rëndësishëm për diskutimet aktuale dhe duhet të zhvendoset diku tjetër.
+      reason_other_label: Tjetër
       reason_spam_label: Spam
-      reason_spam_text: This post is an advertisement.
+      reason_spam_text: Ky post është një shpallje/reklamë.
       submit_button: => flarum-flags.ref.flag_post
       title: => flarum-flags.ref.flag_post
 
     # These translations are used by the Flagged Posts dropdown, a.k.a. "the flag".
     flagged_posts:
-      empty_text: No Flags
+      empty_text: Pa shënjim
       item_text: "{username} in <em>{discussion}</em>"
       title: => flarum-flags.ref.flagged_posts
       tooltip: => flarum-flags.ref.flagged_posts
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      dismiss_flag_button: Dismiss Flag
-      flagged_by_text: "Flagged by {username}"
-      flagged_by_with_reason_text: "Flagged by {username} as {reason}"
+      dismiss_flag_button: Largo shënjimin
+      flagged_by_text: "Shënjuar nga {username}"
+      flagged_by_with_reason_text: "Shënjuar nga {username} si arsye {reason}"
 
     # These translations are used by the post control buttons.
     post_controls:
-      flag_button: Flag
+      flag_button: Shënjo
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -57,5 +57,5 @@ flarum-flags:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    flag_post: Flag Post
-    flagged_posts: Flagged Posts
+    flag_post: Shënjo postimin
+    flagged_posts: Postimet e shënjuara

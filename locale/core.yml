@@ -12,7 +12,7 @@ core:
       developer_text: "Gjuha shqipe për Flarum."
       install_text: "Falemenderit që instaluat gjuhën shqipe për Flarum"
       temporary_text: "Tani forumi juaj fletë shqip"
-      title: Add Extension
+      title: Shto shtojcen
 
     # These translations are used in the Appearance page.
     appearance:

@@ -14,7 +14,7 @@
         "flarum-extension": {
             "title": "Albanian Shqip",
             "icon": {
-                "image": "icon.svg",
+                "image": "Flag_of_Albania.svg",
                 "backgroundColor": "#00247d",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"

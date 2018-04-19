@@ -13,11 +13,11 @@ flarum-pusher:
       app_id_label: App ID
       app_key_label: App Key
       app_secret_label: App Secret
-      title: Pusher Settings
+      title: Cilësimet Pusher
 
   # Translations in this namespace are used by the admin interface.
   forum:
 
     # These translations are used in the discussion list.
     discussion_list:
-      show_updates_text: "Show {count} updated discussion|Show {count} updated discussions"
+      show_updates_text: "Shfaqë {count} diskutimet e freskuara|Shfaqë {count} diskutimet e freskuara"

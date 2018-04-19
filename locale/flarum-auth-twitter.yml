@@ -11,11 +11,11 @@ flarum-auth-twitter:
     twitter_settings:
       api_key_label: API Key
       api_secret_label: API Secret
-      title: Twitter Settings
+      title: Cilësimet e Twitter
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_twitter_button: Log In with Twitter
+      with_twitter_button: Hyrë me Twitter

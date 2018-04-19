@@ -378,12 +378,12 @@ core:
     # These translations are used in the user profile page and profile popup.
     user:
       avatar_remove_button: => core.ref.remove
-      avatar_upload_button: Upload
-      avatar_upload_tooltip: Upload a new avatar
+      avatar_upload_button: Ngarkoni
+      avatar_upload_tooltip: Ndrysho avatarin
       discussions_link: => core.ref.discussions
-      in_discussion_text: "In {discussion}"
-      joined_date_text: "Joined {ago}"
-      online_text: Online
+      in_discussion_text: "Në {discussion}"
+      joined_date_text: "U bë pjesë {ago}"
+      online_text: Aktiv
       posts_load_more_button: => core.ref.load_more
       posts_link: => core.ref.posts
       settings_link: => core.ref.settings
@@ -392,32 +392,32 @@ core:
     user_controls:
       button: Controls
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this user? All of the user's posts will be deleted."
+      delete_confirmation: "Je i sigurt që dëshiron ta fshish këtë përdorues? Të gjitha postimet e përdoruesit do të fshihen."
       edit_button: => core.ref.edit
 
     # These translations are used in the alert that is shown when a new user has not confirmed their email address.
     user_email_confirmation:
       alert_message: => core.ref.confirmation_email_sent
-      resend_button: Resend Confirmation Email
-      sent_message: Sent
+      resend_button: Ridergo email konfirmimi
+      sent_message: Dërgo
 
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      hidden_tooltip: Hidden
+      hidden_tooltip: Fshehur
 
     # These translations are used to modify usernames.
     username:
-      deleted_text: "[deleted]"
+      deleted_text: "[shlyer]"
 
     # These translations are displayed as error messages.
     error:
-      generic_message: "Oops! Something went wrong. Please reload the page and try again."
-      not_found_message: The requested resource was not found.
-      permission_denied_message: You do not have permission to do that.
-      rate_limit_exceeded_message: You're going a little too quickly. Please try again in a few seconds.
+      generic_message: "Oopa! Dicka shkoi keq. Rifresko sërish faqen dhe provo përsëri."
+      not_found_message: Burimi i kërkuar nuk u gjet.
+      permission_denied_message: Ju nuk keni leje për ta bërë këtë.
+      rate_limit_exceeded_message: Po shkon pak shpejt. Provo përsëri për pak sekonda.
 
     # These translations are used as suffixes when abbreviating numbers.
     number_suffix:
@@ -427,17 +427,17 @@ core:
     # These translations are used to punctuate a series of items.
     series:
       glue_text: ", "
-      three_text: "{first}, {second}, and {third}"
-      two_text: "{first} and {second}"
+      three_text: "{first}, {second}, dhe {third}"
+      two_text: "{first} dhe {second}"
 
   # Translations in this namespace are used in views other than Flarum's normal JS client.
   views:
 
     # Translations in this namespace are displayed by the basic HTML content loader.
     content:
-      javascript_disabled_message: This site is best viewed in a modern browser with JavaScript enabled.
-      load_error_message: Something went wrong while trying to load the full version of this site. Try hard-refreshing this page to fix the error.
-      loading_text: Loading...
+      javascript_disabled_message: Kjo faqe është më mirë që të përdoret në një shfletues modern me JavaScript aktivizuar.
+      load_error_message: Diçka u gabua ndërsa përpiqesh të ngarkosh versionin e plotë të kësaj faqeje. Mundohuni ta freskoni këtë faqe për të rregulluar gabimin.
+      loading_text: Po ngarkohet...
 
     # Translations in this namespace are displayed in the basic HTML discussion view.
     discussion:
@@ -446,11 +446,11 @@ core:
 
     # Translations in this namespace are displayed when Flarum encounters an error.
     error:
-      403_message: You do not have permission to access this page.
-      404_message: The page you requested could not be found.
-      404_return_link: "Return to {forum}"
-      500_message: An error occurred while trying to load this page.
-      503_message: "{forum} is undergoing maintenance. Thanks for your patience!"
+      403_message: Nuk ke leje për të hyrë në këtë faqe.
+      404_message: Faqja që kërkoni nuk mund të gjendej.
+      404_return_link: "Kthehu tek {forum}"
+      500_message: Ndodhi një gabim gjatë përpjekjes për të ngarkuar këtë faqe.
+      503_message: "{forum} po kalon mirëmbajtjen. Faleminderit për durimin tuaj!"
 
     # Translations in this namespace are displayed by the basic HTML discussion index.
     index:
@@ -461,48 +461,48 @@ core:
     # Translations in this namespace are displayed by the Log Out confirmation interface.
     log_out:
       log_out_button: => core.ref.log_out
-      log_out_confirmation: "Are you sure you want to log out of {forum}?"
+      log_out_confirmation: "Jeni i sigurt që deshironi të dilni nga {forum}?"
       title: => core.ref.log_out
 
     # Translations in this namespace are displayed by the Reset Password interface.
     reset_password:
-      confirm_password_label: Confirm New Password
-      new_password_label: New Password
+      confirm_password_label: Konfirmo fjalëkalimin e ri
+      new_password_label: Fjalëkalimi i ri
       submit_button: => core.ref.save_changes
       title: => core.ref.reset_your_password
 
   # Translations in this namespace are used in messages output by the API.
   api:
-    invalid_username_message: "The username may only contain letters, numbers, and dashes."
+    invalid_username_message: "Emri i përdoruesit mund të përmbajë vetëm shkronja, numra dhe lakesa."
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
     # These translations are used in emails sent when users register new accounts.
     activate_account:
-      subject: Activate Your New Account
+      subject: Aktivizo llogarinë tuaj të re
       body: |
         Hey {username}!
 
-        Someone (hopefully you!) has signed up to {forum} with this email address.
+        Dikush (me shpresë që ju!) Ka nënshkruar në {forum} me këtë adresë e-mail.
 
-        If this was you, simply click the following link and your account will be activated:
+        Nëse ky/kjo ishit ju, thjesht kliko lidhjen e mëposhtme dhe llogaria juaj do të aktivizohet:
         {url}
 
-        If you did not sign up, please ignore this email.
+        Nëse nuk jeni regjistruar, ju lutem injoroni këtë email.
 
     # These translations are used in emails sent when users change their email address.
     confirm_email:
-      subject: Confirm Your New Email Address
+      subject: Konfirmo adresën e re të emailit
       body: |
         Hey {username}!
 
-        Someone (hopefully you!) has changed their email address on {forum} to this one.
+        Dikush (shpresojmë që ju!) Ka ndryshuar adresën e tyre në {forum} tek kjo.
 
-        If this was you, simply click the following link and your email will be confirmed:
+        Nëse ky/kjo ishit ju, thjesht kliko lidhjen e mëposhtme dhe  ndrysimi i email-it do të konfirmohet:
         {url}
 
-        If this was not you, please ignore this email.
+        Nëse nuk ishit ju, injoroni këtë email.
 
     # These translations are used in emails sent when users ask to reset their passwords.
     reset_password:
@@ -510,12 +510,12 @@ core:
       body: |
         Hey {username}!
 
-        Someone (hopefully you!) has submitted a forgotten password request for your account on {forum}.
+        Dikush (shpresojmë që ju!) Ka paraqitur një kërkesë për fjalëkalimin e harruar për llogarinë tuaj në {forum}.
 
-        If this was you, click the following link to reset your password:
+        Nëse ky ishit ju, kliko lidhjen e mëposhtme për të rivendosur fjalëkalimin:
         {url}
 
-        If you do not wish to change your password, just ignore this email and nothing will happen.
+        Nëse nuk dëshironi të ndryshoni fjalëkalimin tuaj, thjesht injoroni këtë email dhe asgjë nuk do të ndodhë.
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -523,45 +523,45 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    all_discussions: All Discussions
-    change_email: Change Email
-    change_password: Change Password
-    color: Color                                 # Referenced by flarum-tags.yml
-    confirm_password: Confirm Password
-    confirmation_email_sent: "We've sent a confirmation email to {email}. If it doesn't arrive soon, check your spam folder."
-    custom_footer_text: Add HTML to be displayed at the very bottom of the page.
-    custom_footer_title: Edit Custom Footer
-    custom_header_text: "Add HTML to be displayed at the very top of the page, above Flarum's own header."
-    custom_header_title: Edit Custom Header
-    delete: Delete
-    delete_forever: Delete Forever
-    discussions: Discussions                     # Referenced by flarum-statistics.yml
-    edit: Edit
-    email: Email
-    load_more: Load More
-    log_in: Log In
-    log_out: Log Out
-    mark_all_as_read: Mark All as Read
-    next_page: Next Page
-    notifications: Notifications
-    okay: OK                                     # Referenced by flarum-tags.yml
-    password: Password
-    posts: Posts                                 # Referenced by flarum-statistics.yml
-    remove: Remove
-    previous_page: Previous Page
-    rename: Rename
-    reply: Reply                                 # Referenced by flarum-mentions.yml
-    reset_your_password: Reset Your Password
-    restore: Restore
-    save_changes: Save Changes                   # Referenced by flarum-suspend.yml, flarum-tags.yml
-    settings: Settings
-    sign_up: Sign Up
-    some_others: "{count} other|{count} others"  # Referenced by flarum-likes.yml, flarum-mentions.yml
-    start_a_discussion: Start a Discussion
-    username: Username
-    users: Users                                 # Referenced by flarum-statistics.yml
-    write_a_reply: Write a Reply...
-    you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
+    all_discussions: Të gjitha diskutimet
+    change_email: Ndrysho email-in
+    change_password: Ndrysho fjalëkalimin
+    color: Ngjyra                                 # Referenced by flarum-tags.yml
+    confirm_password: Konfirmo fjalëkalimin
+    confirmation_email_sent: "Ne kemi dërguar një email konfirmimi në {email}. Nëse nuk arrin së shpejti, kontrolloni dosjen tuaj të spamit."
+    custom_footer_text: Shtoni HTML që të shfaqet në fund të faqes.
+    custom_footer_title: Ndrysho fundin e faqës
+    custom_header_text: "Shtoni HTML që të shfaqet në krye të faqes, sipër kokës së Flarum-it.."
+    custom_header_title: Ndryshoni fillimin e faqës
+    delete: Fshije
+    delete_forever: Fshije përgjithmonë
+    discussions: Diskutimet                     # Referenced by flarum-statistics.yml
+    edit: Ndrysho
+    email: Email-i
+    load_more: Më shumë
+    log_in: Identifikohu
+    log_out: Dilni
+    mark_all_as_read: Shenoji të gjitha si të lexuara
+    next_page: Faqja në vijim
+    notifications: Njoftimet
+    okay: Në rregull                                     # Referenced by flarum-tags.yml
+    password: Fjalëkalimi
+    posts: Postime                                 # Referenced by flarum-statistics.yml
+    remove: Fshije
+    previous_page: Faqja prapa
+    rename: Riemërto
+    reply: Përgjigju                                 # Referenced by flarum-mentions.yml
+    reset_your_password: Ndryshoni fjalëkalimin tuaj
+    restore: Ktheje
+    save_changes: Ruaj ndryshimet                   # Referenced by flarum-suspend.yml, flarum-tags.yml
+    settings: Cilësimet
+    sign_up: Regjistrohu
+    some_others: "{count} tjera|{count} tjera"  # Referenced by flarum-likes.yml, flarum-mentions.yml
+    start_a_discussion: Krijo diskutim
+    username: Përdoruesi
+    users: Anëtarët                                 # Referenced by flarum-statistics.yml
+    write_a_reply: Përgjigju...
+    you: Ju                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 
   ##
   # GROUP NAMES - These keys are translated at the back end.
@@ -570,10 +570,10 @@ core:
   # Translations in this namespace are used to translate default group names.
   group:
     admin: Admin
-    admins: Admins
-    guest: Guest
-    guests: Guests
-    member: Member
-    members: Members
+    admins: Adminat
+    guest: Mysafir
+    guests: Mysafirët
+    member: Anëtari
+    members: Antarët
     mod: Mod
-    mods: Mods
+    mods: Mode

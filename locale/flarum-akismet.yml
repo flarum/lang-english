@@ -9,14 +9,14 @@ flarum-akismet:
 
     # These translations are used in the Akismet Settings modal dialog.
     akismet_settings:
-      api_key_label: API Key
-      title: Akismet Settings
+      api_key_label: API Celësi
+      title: Cilësimet e Akismet
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used by the frame displayed around flagged posts.
     post:
-      akismet_flagged_text: Akismet flagged as spam
-      not_spam_button: Not Spam
+      akismet_flagged_text: Akismet u shenjua si spam
+      not_spam_button: Sështë Spam
 

@@ -1,7 +1,7 @@
 {
-    "name": "flarum/flarum-ext-english",
+    "name": "nit/flarum-ext-albania",
     "type": "flarum-extension",
-    "description": "English language pack.",
+    "description": "Albanian language pack.",
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
@@ -12,17 +12,17 @@
             "dev-master": "0.1.x-dev"
         },
         "flarum-extension": {
-            "title": "English",
+            "title": "Albanian Shqip",
             "icon": {
-                "image": "icon.svg",
+                "image": "Flag_of_Albania.svg",
                 "backgroundColor": "#00247d",
                 "backgroundSize": "cover",
                 "backgroundPosition": "center"
             }
         },
         "flarum-locale": {
-            "code": "en",
-            "title": "English"
+            "code": "sq",
+            "title": "Albania"
         }
     }
 }

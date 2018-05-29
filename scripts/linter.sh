@@ -11,6 +11,8 @@ RC=0
 
 for r in *.yml
 do
+  [ "$r" != "validation.yml" ] || continue
+
   echo "testing $r"
   yamllinter --file "$r" --level $LEVEL
   if [ $? -eq 1 ]

@@ -21,7 +21,7 @@ do
 
   if [ $? -eq 1 ]; then
     RC=1
-    printf "${RED}⨉ faild${NC}\n"
+    printf "${RED}⨉ failed${NC}\n"
   else
     printf "${GREEN}✓ passed${NC}\n"
   fi

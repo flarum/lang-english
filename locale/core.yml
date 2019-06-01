@@ -392,6 +392,8 @@ core:
       avatar_remove_button: => core.ref.remove
       avatar_upload_button: Upload
       avatar_upload_tooltip: Upload a new avatar
+      delete_alert_error: "Deletion of user <i>{username} ({email})</i> failed"
+      delete_alert_success: "User <i>{username} ({email})</i> was deleted"
       discussions_link: => core.ref.discussions
       in_discussion_text: "In {discussion}"
       joined_date_text: "Joined {ago}"

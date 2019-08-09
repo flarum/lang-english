@@ -9,29 +9,29 @@ flarum-lock:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      lock_discussions_label: Lock discussions
+      lock_discussions_label: Uzamknúť diskusie
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are displayed as tooltips for discussion badges.
     badge:
-      locked_tooltip: Locked
+      locked_tooltip: Uzamknuté
 
     # These translations are used by the discussion control buttons.
     discussion_controls:
-      lock_button: Lock
-      unlock_button: Unlock
+      lock_button: Uzamknúť
+      unlock_button: Otvoriť
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
-      discussion_locked_text: "{username} locked"
+      discussion_locked_text: "{username} to uzamkol"
 
     # These translations are displayed between posts in the post stream.
     post_stream:
-      discussion_locked_text: "{username} locked the discussion."
-      discussion_unlocked_text: "{username} unlocked the discussion."
+      discussion_locked_text: "{username} uzamkol diskusiu."
+      discussion_unlocked_text: "{username} otvoril diskusiu."
 
     # These translations are used in the Settings page.
     settings:
-      notify_discussion_locked_label: Someone locks a discussion I started
+      notify_discussion_locked_label: Niekdo uzamkne diskusiu, ktorú som začal

@@ -1,9 +1,6 @@
-# English Language Pack for Flarum
+# Slovak Language for Flarum
 
-## Installation
+This is my first attempt on Flarum extension.
+It should be compatible with beta.9, but it was not tested yet.
 
-This language pack is bundled with [Flarum](http://flarum.org/).
-
-## Translating Flarum
-
-Because Flarum is at an early development stage, instructions to translate it are currently unavailable. Please check [our documentation](http://flarum.org/docs/translate/) when it will be written.
+_Time to test it then..._

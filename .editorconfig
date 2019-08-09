@@ -22,3 +22,4 @@ indent_size = 4
 # Do not trim trailing whitespace in Markdown files.
 [*.md]
 trim_trailing_whitespace = false
+# CW was here

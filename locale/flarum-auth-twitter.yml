@@ -9,13 +9,13 @@ flarum-auth-twitter:
 
     # These translations are used in the Twitter Settings modal dialog.
     twitter_settings:
-      api_key_label: API Key
+      api_key_label: API Kľúč
       api_secret_label: API Secret
-      title: Twitter Settings
+      title: Twitter Nastavenia
 
   # Translations in this namespace are used by the forum user interface.
   forum:
 
     # These translations are used in the Log In modal dialog.
     log_in:
-      with_twitter_button: Log In with Twitter
+      with_twitter_button: Prihlásiť sa cez Twitter

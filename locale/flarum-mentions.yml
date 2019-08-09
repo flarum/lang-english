@@ -9,29 +9,29 @@ flarum-mentions:
 
     # These translations are used by the composer (reply autocompletion function).
     composer:
-      mention_tooltip: Mention a user or post
-      reply_to_post_text: "Reply to #{number}"
+      mention_tooltip: Spomenúť používateľa alebo príspevok
+      reply_to_post_text: "Odpovedať na príspevok č. #{number}"
 
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       others_text: => core.ref.some_others
-      post_mentioned_text: "{username} replied to your post"  # Can be pluralized to agree with the number of users!
-      user_mentioned_text: "{username} mentioned you"
+      post_mentioned_text: "{username} odpovedal na tvoj príspevok"  # Can be pluralized to agree with the number of users!
+      user_mentioned_text: "{username} ťa spomenul"
 
     # These translations are displayed beneath individual posts.
     post:
-      mentioned_by_self_text: "{users} replied to this."  # Can be pluralized to agree with the number of users!
-      mentioned_by_text: "{users} replied to this."       # Can be pluralized to agree with the number of users!
+      mentioned_by_self_text: "{users} na toto odpovedal"  # Can be pluralized to agree with the number of users!
+      mentioned_by_text: "{users} na toto odpovedal/i"       # Can be pluralized to agree with the number of users!
       others_text: => core.ref.some_others
-      quote_button: Quote
+      quote_button: Odcitovať
       reply_link: => core.ref.reply
       you_text: => core.ref.you
 
     # These translations are used in the Settings page.
     settings:
-      notify_post_mentioned_label: Someone replies to one of my posts
-      notify_user_mentioned_label: Someone mentions me in a post
+      notify_post_mentioned_label: Niekdo odpovie na niektorý z mojich príspevkov
+      notify_user_mentioned_label: Niekdo ma spomenie v príspevku
 
     # These translations are used in the user profile page and profile popup.
     user:
-      mentions_link: Mentions
+      mentions_link: Zmienky

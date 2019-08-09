@@ -9,9 +9,9 @@ flarum-approval:
 
     # These translations are used in the Permissions page of the admin interface.
     permissions:
-      approve_posts_label: Approve posts
-      reply_without_approval_label: Reply to discussions without approval
-      start_discussions_without_approval_label: Start discussions without approval
+      approve_posts_label: Schváliť príspevky
+      reply_without_approval_label: Odpovedať na príspevky bez schválenia
+      start_discussions_without_approval_label: Začat diskusiu bez schválenia
 
   # Translations in this namespace are used by the forum user interface.
   forum:
@@ -26,7 +26,7 @@ flarum-approval:
 
     # These translations are used by the post control buttons.
     post_controls:
-      approve_button: Approve
+      approve_button: Schváliť
 
   ##
   # REUSED TRANSLATIONS - These keys should not be used directly in code!
@@ -34,4 +34,4 @@ flarum-approval:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
-    awaiting_approval: Awaiting approval
+    awaiting_approval: Čaká na schválenie

@@ -164,6 +164,7 @@ core:
       view_last_seen_at_label: View user last seen time
       view_post_ips_label: View post IP addresses
       view_user_list_label: View user list
+      edit_user_label: Edit User
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:

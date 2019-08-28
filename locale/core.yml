@@ -151,6 +151,7 @@ core:
       delete_posts_forever_label: Delete posts forever
       delete_posts_label: Delete posts
       edit_posts_label: Edit posts
+      edit_user_label: Edit user
       global_heading: Global
       moderate_heading: Moderate
       new_group_button: New Group
@@ -164,7 +165,6 @@ core:
       view_last_seen_at_label: View user last seen time
       view_post_ips_label: View post IP addresses
       view_user_list_label: View user list
-      edit_user_label: Edit User
 
     # These translations are used in the dropdown menus on the Permissions page.
     permissions_controls:

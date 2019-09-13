@@ -17,3 +17,4 @@ flarum-markdown:
       ordered_list_tooltip: Add a numbered list
       quote_tooltip: Insert a quote
       unordered_list_tooltip: Add a bulleted list
+      image_tooltip: Add an image

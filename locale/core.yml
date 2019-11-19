@@ -160,6 +160,7 @@ core:
       rename_discussions_label: Rename discussions
       reply_to_discussions_label: Reply to discussions
       sign_up_label: Sign up
+      is_confirmed_label: Email confirmed
       start_discussions_label: Start discussions
       view_discussions_label: View discussions
       view_last_seen_at_label: Always view user last seen time
@@ -176,6 +177,8 @@ core:
       members_button: => core.group.members
       signup_closed_button: Closed
       signup_open_button: Open
+      is_confirmed_yes_button: Yes
+      is_confirmed_no_button: No
 
     # These translations are used in the Settings modal dialog.
     settings:

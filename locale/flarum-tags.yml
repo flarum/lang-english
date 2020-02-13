@@ -89,6 +89,12 @@ flarum-tags:
       removed_tags_text: "{username} removed the {tagsRemoved}."
       tags_text: "{tags} tag|{tags} tags"
 
+    # These tags are used in meta elements of the forum.
+    meta:
+      tag_description: "All discussions with the {tag} tag"
+      tags_title: => flarum-tags.ref.tags
+      tags_description: "All Tags"
+
   # Translations in this namespace are used by the forum and admin interfaces.
   lib:
 

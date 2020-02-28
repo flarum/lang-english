@@ -168,6 +168,7 @@ core:
       view_discussions_label: View discussions
       view_hidden_groups_label: View hidden group badges
       view_last_seen_at_label: Always view user last seen time
+      view_mod_only_label: View moderation events in discussions
       view_post_ips_label: View post IP addresses
       view_user_list_label: View user list
 
@@ -359,6 +360,9 @@ core:
       discussion_renamed_old_tooltip: 'The old title was: "{old}"'
       discussion_renamed_text: "{username} changed the title to {new}."
       load_more_button: => core.ref.load_more
+      post_deleted_text: '{username} permanently deleted "{author}"s {post}.'
+      post_hidden_text: '{username} hid "{author}"s {post}.'
+      post_restored_text: '{username} restored "{author}"s {post}.'
       reply_placeholder: => core.ref.write_a_reply
       time_lapsed_text: "{period} later"
 
@@ -502,6 +506,8 @@ core:
   # Translations in this namespace are used in messages output by the API.
   api:
     invalid_username_message: "The username may only contain letters, numbers, and dashes."
+    missing_setting: Required setting {setting} is missing.
+    unsupported_driver: Provided driver, {driver}, is not supported.
 
   # Translations in this namespace are used in emails sent by the forum.
   email:
@@ -545,10 +551,8 @@ core:
 
         If you do not wish to change your password, just ignore this email and nothing will happen.
 
+    # These translations are used when testing mailing configuration
     send_test:
-      missing_setting: Required setting {setting} is missing.
-      unsupported_driver: Provided driver, {driver}, is not supported.
-      invalid_recipient: Provided test recipient email address, {email}, is not a valid email.
       subject: Flarum Email Test
       body: |
         Hey {username}!

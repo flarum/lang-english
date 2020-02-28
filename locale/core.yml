@@ -110,6 +110,7 @@ core:
       smtp_heading: SMTP Settings
       submit_button: => core.ref.save_changes
       send_test_mail_button: Send
+      send_test_mail_error: An error occured, please check your email configuration.
       send_test_mail_heading: Send Test Mail
       send_test_mail_recipient_label: Test mail recipient
       send_test_mail_success: Test mail sent successfully!

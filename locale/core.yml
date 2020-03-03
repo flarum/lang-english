@@ -320,6 +320,9 @@ core:
       title: => core.ref.log_in
       username_or_email_placeholder: Username or Email
 
+    meta:
+      index_title: All Discussions
+
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       discussion_renamed_text: "{username} changed the title"

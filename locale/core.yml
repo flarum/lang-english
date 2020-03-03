@@ -320,6 +320,7 @@ core:
       title: => core.ref.log_in
       username_or_email_placeholder: Username or Email
 
+    # These translations are used in page titles, descriptions, and other meta elements.
     meta:
       index_title: All Discussions
 

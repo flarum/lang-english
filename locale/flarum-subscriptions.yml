@@ -22,6 +22,10 @@ flarum-subscriptions:
     index:
       following_link: => flarum-subscriptions.ref.following
 
+    # These translations are used in page titles, descriptions, and other meta elements.
+    meta:
+      following_title: => flarum-subscriptions.ref.following
+
     # These translations are used by the Notifications dropdown, a.k.a. "the bell".
     notifications:
       new_post_text: "{username} posted"

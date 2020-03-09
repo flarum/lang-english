@@ -508,8 +508,6 @@ core:
   # Translations in this namespace are used in messages output by the API.
   api:
     invalid_username_message: "The username may only contain letters, numbers, and dashes."
-    missing_setting: Required setting {setting} is missing.
-    unsupported_driver: Provided driver, {driver}, is not supported.
 
   # Translations in this namespace are used in emails sent by the forum.
   email:

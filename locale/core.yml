@@ -120,6 +120,13 @@ core:
       settings_button: => core.ref.settings
       uninstall_button: Uninstall
 
+    advanced:
+      help_text: Please be aware that these settings are meant for advanced users
+      heading_security: Security settings
+      post_flood_interval: Time to wait between multiple posts
+      post_flood_interval_text: Configure the time users have to wait before creating another post (in seconds)
+      enter_positive_number: Please enter a positive number.
+
     # These translations are used in the session dropdown menu.
     header:
       log_out_button: => core.ref.log_out
@@ -140,6 +147,8 @@ core:
       email_text: "Configure your forum's email settings."
       extensions_button: Extensions
       extensions_text: Add extra functionality to your forum and make it your own.
+      advanced_button: Advanced
+      advanced_text: Configure specialized settings meant for advanced users.
       permissions_button: Permissions
       permissions_text: Configure who can see and do what.
 

@@ -242,12 +242,21 @@ core:
       cannot_reply_button: Can't Reply
       cannot_reply_text: You don't have permission to reply to this discussion.
       delete_button: => core.ref.delete
-      delete_confirmation: "Are you sure you want to delete this discussion?"
       delete_forever_button: => core.ref.delete_forever
       log_in_to_reply_button: Log In to Reply
       rename_button: => core.ref.rename
       reply_button: => core.ref.reply
       restore_button: => core.ref.restore
+      hide_discussion_modal:
+        title: => core.ref.are_you_sure
+        message: "Are you sure you want to delete this discussion?"
+        positive: => core.ref.delete
+        negative: => core.ref.cancel
+      delete_discussion_modal:
+        title: => core.ref.are_you_sure
+        message: "Are you sure you want to delete this discussion forever? This action cannot be undone."
+        positive: => core.ref.delete_forever
+        negative: => core.ref.cancel
 
     # These translations are used in the discussion list.
     discussion_list:
@@ -348,7 +357,7 @@ core:
         negative: => core.ref.cancel
       delete_post_modal:
         title: => core.ref.are_you_sure
-        message: "Are you sure you want to delete this comment? This action cannot be undone."
+        message: "Are you sure you want to delete this comment forever? This action cannot be undone."
         positive: => core.ref.delete_forever
         negative: => core.ref.cancel
 
@@ -556,7 +565,9 @@ core:
 
   # Translations in this namespace are referenced by two or more unique keys.
   ref:
+    are_you_sure: Are you sure?
     all_discussions: All Discussions
+    cancel: Cancel
     change_email: Change Email
     change_password: Change Password
     color: Color                                 # Referenced by flarum-tags.yml

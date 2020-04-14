@@ -153,9 +153,6 @@ core:
       delete_posts_forever_label: Delete posts forever
       delete_posts_label: Delete posts
       edit_posts_label: Edit posts
-      edit_user_credentials_label: Edit user credentials
-      edit_user_groups_label: Edit user groups
-      edit_user_username_label: Edit username
       global_heading: Global
       moderate_heading: Moderate
       new_group_button: New Group
@@ -166,6 +163,9 @@ core:
       reply_to_discussions_label: Reply to discussions
       sign_up_label: Sign up
       start_discussions_label: Start discussions
+      user_edit_credentials_label: Edit user credentials
+      user_edit_groups_label: Edit user groups
+      user_edit_username_label: Edit username
       view_discussions_label: View discussions
       view_last_seen_at_label: Always view user last seen time
       view_post_ips_label: View post IP addresses

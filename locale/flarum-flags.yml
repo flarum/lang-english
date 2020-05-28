@@ -17,7 +17,7 @@ flarum-flags:
       flag_own_posts_label: Allow users to flag their own posts
       guidelines_url_label: Community Guidelines URL
       title: Flags Settings
-      
+
     # These translations are used in the dismissed Flags page.
     dismissed:
       title: Dismissed Flags
@@ -29,6 +29,7 @@ flarum-flags:
         reason_detail: Reason Detail
         created_at: Created
         dismissed_at: Dismissed
+        dismissed_by: Dismissed by
 
   # Translations in this namespace are used by the forum user interface.
   forum:

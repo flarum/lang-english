@@ -47,7 +47,7 @@ flarum-mentions:
 
         {replier_username} replied to your post (#{post_number}) in {title}.
 
-        {url}/{reply_number}
+        {url}
 
         ---
 
@@ -61,7 +61,7 @@ flarum-mentions:
 
         {mentioner_username} mentioned you in a post in {title}.
 
-        {url}/{reply_number}
+        {url}
 
         ---
 

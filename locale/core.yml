@@ -107,12 +107,12 @@ core:
       mail_username_label: => core.ref.username
       mailgun_heading: Mailgun Settings
       not_sending_message: Flarum currently does not send emails. This can be due to the selected driver, or errors in its configuration.
-      smtp_heading: SMTP Settings
-      submit_button: => core.ref.save_changes
       send_test_mail_button: Send
       send_test_mail_heading: Send Test Mail
       send_test_mail_success: Test mail sent successfully!
       send_test_mail_text: This will send an email using the above configuration to your email, {email}.
+      smtp_heading: SMTP Settings
+      submit_button: => core.ref.save_changes
       text: Configure the driver, settings and addresses your forum will use to send email.
 
     # These translations are used in the Extensions page.

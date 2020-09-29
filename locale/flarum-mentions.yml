@@ -41,11 +41,11 @@ flarum-mentions:
 
     # These translations are used in emails sent when a post is replied to
     post_mentioned:
-      subject: "{replier_username} replied to your post in {title}"
+      subject: "{replier_display_name} replied to your post in {title}"
       body: |
-        Hey {recipient_username}!
+        Hey {recipient_display_name}!
 
-        {replier_username} replied to your post (#{post_number}) in {title}.
+        {replier_display_name} replied to your post (#{post_number}) in {title}.
 
         {url}
 
@@ -55,11 +55,11 @@ flarum-mentions:
 
     # These translations are used in emails sent when a user is mentioned
     user_mentioned:
-      subject: "{mentioner_username} mentioned you in {title}"
+      subject: "{mentioner_display_name} mentioned you in {title}"
       body: |
-        Hey {recipient_username}!
+        Hey {recipient_display_name}!
 
-        {mentioner_username} mentioned you in a post in {title}.
+        {mentioner_display_name} mentioned you in a post in {title}.
 
         {url}
 

@@ -50,7 +50,7 @@ flarum-subscriptions:
   # Translations in this namespace are used in emails sent by the forum.
   email:
 
-    # These translations are used in emails sent when a post is replied to
+    # These translations are used in emails sent when a post is made in a subscribed discussion
     new_post:
       subject: "[New Post] {title}"
       body: |

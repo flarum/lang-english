@@ -228,8 +228,10 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
+      edit_message: "Successfully saved."
       post_link: "Post #{number} in {discussion}"
       submit_button: => core.ref.save_changes
+      view_button: => core.form.composer_reply.view_button
 
     # These translations are used by the composer when replying to a discussion.
     composer_reply:

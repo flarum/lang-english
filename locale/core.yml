@@ -226,8 +226,8 @@ core:
     # These translations are used by the composer when editing a post.
     composer_edit:
       discard_confirmation: "You have not saved your changes. Do you wish to discard them?"
-      post_link: "Post #{number} in {discussion}"
       edited_message: Your edit was made.
+      post_link: "Post #{number} in {discussion}"
       submit_button: => core.ref.save_changes
       view_button: => core.ref.view
 
@@ -577,7 +577,6 @@ core:
     previous_page: Previous Page
     remove: Remove
     rename: Rename
-    view: View
     reply: Reply                                 # Referenced by flarum-mentions.yml
     reset_your_password: Reset Your Password
     restore: Restore
@@ -588,6 +587,7 @@ core:
     start_a_discussion: Start a Discussion
     username: Username
     users: Users                                 # Referenced by flarum-statistics.yml
+    view: View
     write_a_reply: Write a Reply...
     you: You                                     # Referenced by flarum-likes.yml, flarum-mentions.yml
 

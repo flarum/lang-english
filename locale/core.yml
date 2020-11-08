@@ -142,6 +142,15 @@ core:
       appearance_title: => core.admin.appearence.description
       basics_button: => core.admin.basics.title
       basics_title: => core.admin.basics.description
+      categories:
+        authentication: Authentication
+        discussion: Discussion
+        feature: Features
+        formatting: Formatting
+        language: Languages
+        moderation: Moderation
+        other: Other
+        theme: Themes
       dashboard_button: => core.admin.dashboard.title
       dashboard_title: => core.admin.dashboard.description
       email_button: => core.ref.email

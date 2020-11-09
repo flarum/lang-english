@@ -54,7 +54,6 @@ core:
     dashboard:
       clear_cache_button: Clear Cache
       description: Your forum at a glance.
-      extensions_title: Extensions
       title: Dashboard
       tools_button: Tools
 
@@ -122,6 +121,7 @@ core:
       enable_to_see: Enable the extension to view and change settings.
       no_permissions: No Permissions
       no_settings: No Settings
+      open_modal: Open Settings
       permissions_title: Permissions
       source: Source
       uninstall_button: Uninstall

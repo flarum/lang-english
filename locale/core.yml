@@ -147,7 +147,7 @@ core:
         formatting: Formatting
         language: Languages
         moderation: Moderation
-        other: Other
+        other: Other Extensions
         theme: Themes
       dashboard_button: => core.admin.dashboard.title
       dashboard_title: => core.admin.dashboard.description

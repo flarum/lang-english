@@ -116,18 +116,27 @@ core:
 
     # These translations are used on default extension pages.
     extension:
+      confirm_uninstall: Uninstalling will remove all database entires and assets related to the extension. Are you sure you want to contiune?
       disabled: Disabled
       enabled: Enabled
       enable_to_see: Enable the extension to view and change settings.
+      info_links:
+        discuss: Discuss
+        documentation: Documentation
+        donate: Donate
+        source: Source
+        support: Support
+        website: Website
       no_permissions: No Permissions
       no_settings: No Settings
       open_modal: Open Settings
       permissions_title: Permissions
-      source: Source
+      saved_message: Your changes were saved.
       uninstall_button: Uninstall
 
-    # These translations are used in the session dropdown menu.
+    # These translations are used in the secondary header.
     header:
+      get_help: Get Help
       log_out_button: => core.ref.log_out
 
     # These translations are used in the modal dialog displayed when loading extensions.

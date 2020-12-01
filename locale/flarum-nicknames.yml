@@ -5,6 +5,8 @@ flarum-nicknames:
       regex_label: Regular expression for validation
       min_label: Minimum nickname length
       max_label: Maximum nickname length
+    permissions:
+      edit_own_nickname_label: Edit own nickname
   api:
     invalid_nickname_message: This nickname is invalid. Please contact your forum administrator for more information on nickname rules.
   forum:
@@ -19,4 +21,3 @@ flarum-nicknames:
 
   ref:
     change_nickname: Change Nickname
-

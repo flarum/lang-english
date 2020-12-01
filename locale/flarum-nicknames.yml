@@ -1,0 +1,22 @@
+flarum-nicknames:
+  admin:
+    settings:
+      unique_label: Require unique nicknames?
+      regex_label: Regular expression for validation
+      min_label: Minimum nickname length
+      max_label: Maximum nickname length
+  api:
+    invalid_nickname_message: This nickname is invalid. Please contact your forum administrator for more information on nickname rules.
+  forum:
+    settings:
+      change_nickname_button: Change Nickname
+    edit_user:
+      nicknames_heading: => flarum-nicknames.ref.change_nickname
+      nicknames_text: Nickname
+    change_nickname:
+      title:  => flarum-nicknames.ref.change_nickname
+      submit_button: => core.ref.save_changes
+
+  ref:
+    change_nickname: Change Nickname
+

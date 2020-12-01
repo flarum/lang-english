@@ -9,7 +9,7 @@ flarum-nicknames:
     invalid_nickname_message: This nickname is invalid. Please contact your forum administrator for more information on nickname rules.
   forum:
     settings:
-      change_nickname_button: Change Nickname
+      change_nickname_button: => flarum-nicknames.ref.change_nickname
     edit_user:
       nicknames_heading: => flarum-nicknames.ref.change_nickname
       nicknames_text: Nickname

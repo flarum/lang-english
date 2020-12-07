@@ -7,6 +7,7 @@ flarum-nicknames:
       max_label: Maximum nickname length
     permissions:
       edit_own_nickname_label: Edit own nickname
+    wrong_driver: You must select "nickname" as the display name driver on the <a><strong>Basics Page</strong></a> for this extension to take effect.
   api:
     invalid_nickname_message: This nickname is invalid. Please contact your forum administrator for more information on nickname rules.
   forum:

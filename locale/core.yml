@@ -152,14 +152,9 @@ core:
       basics_button: => core.admin.basics.title
       basics_title: => core.admin.basics.description
       categories:
-        authentication: Authentication
         core: Core Configuration
-        discussion: Discussion
         feature: Features
-        formatting: Formatting
         language: Languages
-        moderation: Moderation
-        other: Other Extensions
         theme: Themes
       dashboard_button: => core.admin.dashboard.title
       dashboard_title: => core.admin.dashboard.description

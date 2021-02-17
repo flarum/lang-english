@@ -5,7 +5,7 @@
     "keywords": ["locale"],
     "license": "MIT",
     "require": {
-        "flarum/core": "^0.1.0-beta.14"
+        "flarum/core": "^0.1.0-beta.15"
     },
     "extra": {
         "branch-alias": {
@@ -13,6 +13,12 @@
         },
         "flarum-extension": {
             "title": "English",
+            "category": "language",
+            "info": {
+                "donate": "https://flarum.org/donate/",
+                "website": "https://flarum.org",
+                "support": "https://discuss.flarum.org"
+            },
             "icon": {
                 "image": "icon.svg",
                 "backgroundColor": "#00247d",

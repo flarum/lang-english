@@ -205,7 +205,7 @@ core:
       signup_closed_button: Closed
       signup_open_button: Open
 
-    # These translations are used in the Settings modal dialog.
+    # These translations are used generically in setting fields.
     settings:
       saved_message: Your changes were saved.
       submit_button: => core.ref.save_changes
